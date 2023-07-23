@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fasion</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom slasses -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'text-primary': '#FABE4C',
+                'buy-now-primary-bg':'#85A019',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="">
+    <header class="bg-orange-50 h-4/5 ">
+        <div class="md:container md:mx-auto">
+            <nav class="flex py-8">
+                <div class="w-1/2">
+                    <h2 class="text-2xl font-bold"><span class="text-lime-400">Penguin</span> Fasion</h2>
+                </div>
+                <div class="w-1/2 flex justify-around list-none font-semibold">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </div>
+            </nav>
+            <div class="md:flex items-center gap-24">
+                <div class="">
+                    <h1 class="text-6xl font-bold uppercase"><span class="text-text-primary">be the penguins</span><br> of winter</h1>
+                    <p class="my-4">Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry.</p>
+                    <button class="btn bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white">buy now</button>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="md:container md:mx-auto">
+        <!-- women jacket -->
+        <section class="">
+            <h2 class="my-12 text-5xl font-bold uppercase">Woman Jacket</h2>
+            <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+                <!-- first card -->
+            <div class="card glass">
+                <figure class="bg-slate-100"><img class="w-1/2" src="./images/jacket-1.png" alt=""/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Yellow Coat Jacket </h2>
+                  <p>Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
+                  <div class="card-actions justify-end">
+                    <p class="text-text-primary font-bold text-4xl">$234</p>
+                    <button class="btn bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white">Learn now!</button>
+                  </div>
+                </div>
+              </div>
+              <!-- second card -->
+            <div class="card glass">
+                <figure class="bg-slate-100"><img class="w-1/2" src="./images/jacket-2.png" alt=""/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Ladies Jacket  </h2>
+                  <p>Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
+                  <div class="card-actions justify-end">
+                    <p class="text-text-primary font-bold text-4xl">$234</p>
+                    <button class="btn bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white">Learn now!</button>
+                  </div>
+                </div>
+              </div>
+              <!-- third card -->
+            <div class="card glass">
+                <figure class="bg-slate-100"><img class="w-1/2" src="./images/jacket-3.png" alt=""/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Woman Leather Jacket  </h2>
+                  <p>Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
+                  <div class="card-actions justify-end">
+                    <p class="text-text-primary font-bold text-4xl">$234</p>
+                    <button class="btn bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white">Learn now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- man jacket -->
+        <section class="">
+            <h2 class="my-12 text-5xl font-bold uppercase">man Jacket</h2>
+            <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+                <!-- first card -->
+            <div class="card glass">
+                <figure class="bg-slate-100"><img class="w-1/2" src="./images/jacket-4.png" alt=""/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Snowboard Jacket Mens </h2>
+                  <p>Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
+                  <div class="card-actions justify-end">
+                    <p class="text-text-primary font-bold text-4xl">$234</p>
+                    <button class="btn bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white">Learn now!</button>
+                  </div>
+                </div>
+              </div>
+              <!-- second card -->
+            <div class="card glass">
+                <figure class="bg-slate-100"><img class="w-1/2" src="./images/jacket-5.png" alt=""/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Man Leather Jackets  </h2>
+                  <p>Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
+                  <div class="card-actions justify-end">
+                    <p class="text-text-primary font-bold text-4xl">$234</p>
+                    <button class="btn bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white">Learn now!</button>
+                  </div>
+                </div>
+              </div>
+              <!-- third card -->
+            <div class="card glass">
+                <figure class="bg-slate-100"><img class="w-1/2" src="./images/jacket-6.png" alt=""/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Man Casual Jackets  </h2>
+                  <p>Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
+                  <div class="card-actions justify-end">
+                    <p class="text-text-primary font-bold text-4xl">$234</p>
+                    <button class="btn bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white">Learn now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- last section -->
+        <section class="my-28">
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <img src="./images/shopping.png" class="w-1/2" />
+              <div>
+                <div class="flex gap-6 shadow-md">
+                  <div><img class="w-12" src="icons/house.png" alt=""></div>
+                  <div>
+                    <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we
+                      offer styles for every body.</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex gap-6 shadow-md my-8">
+                    <div><img class="w-12" src="icons/box.png" alt=""></div>
+                    <div>
+                      <h4 class="text-2xl font-bold">Free Exchanges</h4>
+                      <p>One of the many reasons you can shop
+                        with peace of mind.</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex gap-6 shadow-md">
+                    <div><img class="w-12" src="icons/question.png" alt=""></div>
+                    <div>
+                      <h4 class="text-2xl font-bold">Contact Our Seller</h4>
+                      <p>They are here to help you. That's quite 
+                        literally what we pay them for.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+    </main>
+    <footer></footer>
+</body>
+</html>
